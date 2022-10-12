@@ -1,0 +1,106 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box ;
+}
+ /* vị trí 
+    kích cỡ 
+    màu sắc 
+    kiểu dáng
+    1 từ ngoài vào trong 
+    2 từ trên xuống dưới 
+    3 tổng quan đến chi tiết
+
+    */
+
+html{
+    font-family: Verdana,sans-serif;
+}
+#main{
+
+}
+#header{
+    height: 46px ;
+    background-color: #000  ;
+}
+#navigation{
+    display:  inline-block;
+}
+#navigation > li {
+    display: inline-block;
+}
+#navigation li{
+    
+    position: relative;
+  
+}
+#navigation > li >a{ 
+     color: #fff;
+     text-transform: uppercase ;
+}
+#navigation li a{
+   
+    text-decoration: none ;
+    line-height: 46px ;
+    padding: 0px 24px ;
+    display: block;
+
+}
+
+#navigation .subnav li:hover ,
+#navigation> li:hover> a{
+    color: #000;
+    background-color: #ccc;
+    
+
+}
+#navigation  li:hover .subnav{
+    display: block;
+} 
+
+#navigation .subnav {
+    display:block;
+}
+#navigation .subnav{
+    display:none;
+    position: absolute;
+    background-color: #fff;
+    list-style:  none;
+    box-shadow: 0 4px 10px 0 rgba(0,0,9, 0.2) ;
+}
+#navigation .subnav a{
+    color: #000;
+    padding: 0 16px;
+    line-height:  38px ;
+    
+
+}
+#navigation .nav-arrow-down{
+    font-size: 14px;
+}
+#header .search_button{
+    float: right;
+    padding: 0 16px;
+    
+}
+#header .search-icon{
+    font-size: 28px;
+    color: #fff;
+    line-height: 46px ;
+    cursor: pointer;
+}
+
+#header .search_button:hover{
+    
+    background-color:#f44336 ;
+}
+#slider{
+    /* min-height: 500px;
+    background-color:#111; */
+}
+#contain{
+
+}
+#footer{
+
+}
